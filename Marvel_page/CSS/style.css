@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: rgb(234, 18, 18); */
+}
+header::before{
+    content: "";
+    position: fixed;
+    left: 0;
+    /* top: 0; */
+    bottom: -510px;
+    width: 100%;
+    height: 170%;
+    background: url("../den6ywn-195c3ba2-ebb4-445e-ad81-662a70d2e265.jpg") no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.3;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    /* height: 200px; */
+}
+header div img{
+    width: 140%;
+    height: 300px;
+    opacity: 1;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.about h2,.about p{
+    color: white;
+}
+.about h2{
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+.about{
+    margin: 0 3em;
+    /* margin-bottom: 10em; */
+    padding: 10px 100px 0 10px;
+    font-size: 1.3rem;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 200px;
+}
+.container .card .content img{
+    bottom: 0;
+    z-index: 200;
+    opacity: 1;
+    left: 0;
+    position: relative;
+    bottom: -25px;
+    transition: 0.6s;
+}
+.container .card:hover img{
+    left: 37%;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* align-items: center; */
+    opacity: 0.8;
+    background-color: rgba(62, 62, 62, 0);
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 25px;
+    /* border: 3px solid black; */
+    /* box-shadow: 5px 5px 10px rgb(255, 255, 255); */
+    width: 630px;
+    height: 400px;
+    margin: 30px;
+    margin-top: 18em;
+    /* padding: 20px; */
+    opacity: 1;
+    background: linear-gradient(45deg,#ffffffc5,#000000c1);
+    /* background-color: #cccccce0; */
+}
+.container .card:hover{
+    background: linear-gradient(45deg,#ffffff,#000000);
+}
+#hawkeye,#natasha {
+    margin-bottom: 7em;
+}
+
+.container .card .content h2,.container .card .content p{
+    visibility:hidden;
+    position: relative;
+    /* top: 380px; */
+    top: 450px;
+}
+#hawkeye div img {
+    height: 526px;
+    width: 340px;
+}
+#thor div img{
+    height: 525px;
+    width: 400px;
+}
+#ironman div img {
+    height: 523px;
+    width: 420px;
+    /* bottom: -43px; */
+}
+#captain div img {
+    height: 500px;
+    width: 350px;
+    bottom: -33px;
+}
+#hulk div img {
+    height: 515px;
+    width: 420px;
+}
+#natasha div img {
+    bottom: -36px;
+    height: 509px;
+    width: 478px;
+}
+
+
+#hawkeye div:hover img {
+    height: 626px;
+    width: 390px;
+}
+#thor div:hover img{
+    height: 590px;
+    width: 440px;
+}
+#ironman div:hover img {
+    height: 610px;
+    width: 450px;
+    /* bottom: -43px; */
+}
+#captain div:hover img {
+    height: 600px;
+    width: 400px;
+    bottom: -33px;
+}
+#hulk div:hover img {
+    height: 600px;
+    width: 450px;
+}
+#natasha div:hover img {
+    /* bottom: -36px; */
+    height: 600px;
+    width: 500px;
+}
+.card .content h2{
+    margin-bottom: 10px;
+    /* font-size: 1.6em; */
+    /* font-weight: bold; */
+}
+
+#captain div:hover h2, #captain div:hover p {
+    /* bottom: -36px; */
+    /* bottom: 0px; */
+    top: 540px;
+    left: 20px;
+    width: 40%;
+}
+#ironman div:hover h2, #ironman div:hover p {
+    /* bottom: -36px; */
+    /* bottom: 0px; */
+    width: 45%;
+    left: 20px;
+    top: 500px;
+}
+#thor div:hover h2, #thor div:hover p {
+    /* bottom: -36px; */
+    /* bottom: 0px; */
+    width: 38%;
+    left: 20px;
+    top: 510px;
+}
+#hulk div:hover h2, #hulk div:hover p {
+    /* bottom: -36px; */
+    /* bottom: 0px; */
+    width: 45%;
+    left: 20px;
+    top: 473px;
+}
+#natasha div:hover h2, #natasha div:hover p {
+    /* bottom: -36px; */
+    /* bottom: 0px; */
+    width: 40%;
+    left: 20px;
+    top: 500px;
+}
+#hawkeye div:hover h2, #hawkeye div:hover p {
+    /* bottom: -36px; */
+    /* bottom: 0px; */
+    width: 45%;
+    left: 20px;
+    top: 540px;
+}
+
+.container .card:hover .content h2,.container .card:hover .content p{
+    visibility:visible;
+    /* position: relative;
+     top: 380px; 
+    top: 580px; */
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(45deg,#ffffffc0,#000000c0);
+    color: black;
+    
+}
+footer h2{
+    margin-left: 20px;
+}
+footer h2:hover{
+    scale: 1.1;
+}
